@@ -1,0 +1,25 @@
+﻿{
+    "version": "1.0.0-*",
+    "dependencies": {
+        "Newtonsoft.Json": "6.0.8.0"
+    },
+
+    "frameworks": {
+        "aspnet50": {
+            "dependencies": {
+                "Microsoft.Net.Http": "2.2.7-beta"
+            }
+        },
+        "aspnetcore50": {
+            "dependencies": {
+                "System.Runtime": "4.0.20-beta-22231",
+                "System.Linq": "4.0.0-beta-22231",
+                "System.IO": "4.0.10-beta-22231",
+                "System.Dynamic.Runtime": "4.0.0-beta-22231",
+                "System.Globalization": "4.0.10-beta-22231",
+                "System.Net.Http": "4.0.0-beta-22231",
+                "Microsoft.CSharp": "4.0.0-beta-22231"
+            }
+        }
+    }
+}
